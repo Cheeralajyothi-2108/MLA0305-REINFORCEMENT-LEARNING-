@@ -1,0 +1,6 @@
+def move_kitchen(): print('Move to kitchen')
+def pick(): print('Pick item')
+def move_table(): print('Move to table')
+def deliver(): print('Deliver')
+for task in [move_kitchen,pick,move_table,deliver]: task()
+print('MAXQ idea: a complex task is decomposed into reusable subtasks.')
